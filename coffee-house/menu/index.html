@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='style.css'>
+  <link rel='icon' type='image/x-icon' href='../img/favicon.ico'>
+  <title>Menu - Resource Coffee House</title>
+</head>
+
+<body>
+  <div class='container'>
+    <header class='header'>
+      <div>
+        <a href='../index.html'><img src='../img/logo.png' alt='cafe logo'></a>
+      </div>
+      <nav class='tablet-hidden' id='header-nav-section'>
+        <ul class='header-list hover-border'>
+          <li class='header-list-item'>
+            <a href='../index.html#favourite-coffee' class='link-button'>
+              <span>Favorite coffee</span>
+              <span class='border-animation-span'></span>
+            </a>
+          </li>
+          <li class='header-list-item'>
+            <a href='../index.html#about' class='link-button'>
+              <span>About</span>
+              <span class='border-animation-span'></span>
+            </a>
+          </li>
+          <li class='header-list-item'>
+            <a href='../index.html#app-link' class='link-button'>
+              <span>Mobile app</span>
+              <span class='border-animation-span'></span>
+            </a>
+          </li>
+          <li class='header-list-item'>
+            <a href='../index.html#contact-us' class='link-button'>
+              <span>Contact us</span>
+              <span class='border-animation-span'></span>
+            </a>
+          </li>
+          <li class='header-list-item tablet-menu-btn'>
+            <a role=' link' aria-disabled='true' class='link-button header-menu-btn '>
+              <span class='header-menu-btn-content'>
+                <span>Menu</span>
+                <img src='../img/svg/cup.svg' alt='Cup icon'>
+              </span>
+              <span class='border-animation-span'></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class=' tablet-hidden hover-border'>
+        <a role='link' aria-disabled='true' class='link-button header-menu-btn '>
+          <span class='header-menu-btn-content'>
+            <span>Menu</span>
+            <img src='../img/svg/cup.svg' alt='Cup icon'>
+          </span>
+          <!-- <span class='border-animation-span'></span> -->
+        </a>
+      </div>
+      <div class='burger-btn-container'>
+        <button class='header-burger-btn' id='header-burger-btn' title='burger menu button'>
+          <!-- <img src='../img/svg/button-icon-burger.svg' alt='burger button'> -->
+          <span class='burger-btn-span burger-btn-span-top'></span>
+          <span class='burger-btn-span burger-btn-span-bottom'></span>
+
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <h1 class='title'>Behind each of our cups <br class='tablet-hidden'> hides an <span class='accent'>amazing
+          surprise</span></h1>
+      <nav>
+        <ul class='menu-nav-list'>
+          <li>
+            <button class='menu-nav-btn selected' data-category='coffee'>
+              <img src='../img/menu/coffee-icon.png' alt='coffee icon'>
+              <span>Coffee</span></button>
+          </li>
+          <li>
+            <button class='menu-nav-btn' data-category='tea'>
+              <img src='../img/menu/tea-icon.png' alt='tea icon'>
+              <span>Tea</span></button>
+          </li>
+          <li>
+            <button class='menu-nav-btn' data-category='dessert'>
+              <img src='../img/menu/dessert-icon.png' alt='dessert icon'>
+              <span>Dessert</span></button>
+          </li>
+        </ul>
+      </nav>
+      <div class='gallery'>
+      </div>
+      <div class='desktop-hidden'>
+        <button class='gallery-refresh-btn'><img alt='button icon' src='../img/svg/button-refresh.svg'></button>
+
+      </div>
+
+    </main>
+
+    <footer class=' footer'>
+      <div>
+        <h2 class='heading-2 footer-heading'>
+          Sip, Savor, Smile.
+          <span class='accent footer-title-accent'>It’s coffee time!</span>
+        </h2>
+        <div>
+          <a href='https://twitter.com/' class='footer-social-btn' target='_blank'>
+            <!-- <svg src='../img/svg/twitter-icon.svg' alt='twitter icon'> -->
+            <svg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'>
+              <rect x='0.5' y='0.5' width='59' height='59' rx='29.5' stroke='#C1B6AD' />
+              <path
+                d='M41 21.0101C41 21.0101 38.9821 22.2022 37.86 22.5401C37.2577 21.8476 36.4573 21.3567 35.567 21.134C34.6767 20.9112 33.7395 20.9673 32.8821 21.2945C32.0247 21.6218 31.2884 22.2045 30.773 22.9638C30.2575 23.7231 29.9877 24.6224 30 25.5401V26.5401C28.2426 26.5856 26.5013 26.1959 24.931 25.4055C23.3607 24.6151 22.0103 23.4487 21 22.0101C21 22.0101 17 31.0101 26 35.0101C23.9405 36.408 21.4872 37.109 19 37.0101C28 42.0101 39 37.0101 39 25.5101C38.9991 25.2315 38.9723 24.9537 38.92 24.6801C39.9406 23.6735 41 21.0101 41 21.0101Z'
+                stroke='#E1D4C9' stroke-linecap='round' stroke-linejoin='round' />
+            </svg>
+
+          </a>
+          <a href='https://www.instagram.com/' class='footer-social-btn' target='_blank'>
+            <!-- <svg src='../img/svg/insta.svg' alt='instagram icon'> -->
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD" />
+              <path
+                d="M30 34C32.2091 34 34 32.2091 34 30C34 27.7909 32.2091 26 30 26C27.7909 26 26 27.7909 26 30C26 32.2091 27.7909 34 30 34Z"
+                stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M21 34V26C21 23.2386 23.2386 21 26 21H34C36.7614 21 39 23.2386 39 26V34C39 36.7614 36.7614 39 34 39H26C23.2386 39 21 36.7614 21 34Z"
+                stroke="#E1D4C9" />
+              <path d="M35.5 24.51L35.51 24.4989" stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href='https://www.facebook.com/' class='footer-social-btn' target='_blank'>
+            <!-- <svg src='../img/svg/facebook.svg' alt='facebook icon'> -->
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="59" height="59" rx="29.5" stroke="#C1B6AD" />
+              <path
+                d="M35 20H32C30.6739 20 29.4021 20.5268 28.4645 21.4645C27.5268 22.4021 27 23.6739 27 25V28H24V32H27V40H31V32H34L35 28H31V25C31 24.7348 31.1054 24.4804 31.2929 24.2929C31.4804 24.1054 31.7348 24 32 24H35V20Z"
+                stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div id='contact-us'>
+        <h3 class='heading-3'>Contact us</h3>
+        <nav>
+          <ul class='footer-list'>
+            <li><img src='../img/svg/map-pin.svg' alt='map pin icon'>8558 Green Rd., LA</li>
+            <li><img src='../img/svg/phone.svg' alt='phone icon'>+1 (603) 555-0123</li>
+            <li><img src='../img/svg/clock.svg' alt='clock icon'>Mon-Sat: 9:00 AM – 23:00 PM</li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <article class='item-details hidden' id='item-prompt'>
+    <div class='item-content-wrapper'>
+      <div class='item-image'>
+        <img id='prompt-img' src='../img/menu/coffee/coffee-1.jpg' alt='Menu item photo'>
+      </div>
+      <div class='item-details-right'>
+        <div class='data-key'>
+          <h3 class='heading-3' id='prompt-title'>Coffee</h3>
+          <p class='item-subtitle' id='prompt-subtitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <p>Size</p>
+          <div class='item-input-wrapper'>
+            <div>
+              <input class='hidden' type='radio' name='item-size' value='s' id='item-size-s' checked>
+              <label class='item-btn size-label selected' for='item-size-s'>
+                <span class='label-span'>S</span> <span id='sizeVolume1'>200 ml</span>
+              </label>
+            </div>
+            <div>
+              <input class='hidden' type='radio' name='item-size' value='m' id='item-size-m'>
+              <label class='item-btn size-label' for='item-size-m'>
+                <span class='label-span'>M</span> <span id='sizeVolume2'>300 ml</span>
+              </label>
+            </div>
+            <div>
+              <input class='hidden' type='radio' name='item-size' value='l' id='item-size-l'>
+              <label class='item-btn size-label' for='item-size-l'>
+                <span class='label-span'>L</span> <span id='sizeVolume3'>400 ml</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>Additives</p>
+          <div class='item-input-wrapper'>
+            <div>
+              <input class='item-add hidden' type='checkbox' value='sugar' id='item-add-sugar'>
+              <label class='item-btn add-label' for='item-add-sugar'>
+                <span class='label-span'>1</span> <span id='additive1'>Sugar</span>
+              </label>
+            </div>
+            <div>
+              <input class='item-add hidden' type='checkbox' value='cinnamon' id='item-add-cinnamon'>
+              <label class='item-btn add-label' for='item-add-cinnamon'>
+                <span class='label-span'>2</span> <span id='additive2'>Cinnamon</span>
+              </label>
+            </div>
+            <div>
+              <input class='item-add hidden' type='checkbox' value='Syrup' id='item-add-cyrup'>
+              <label class='item-btn add-label' for='item-add-cyrup'>
+                <span class='label-span'>3</span> <span id='additive3'>Cyrup</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class='heading-3 item-total'>
+          <span>Total:</span><span id='prompt-price'>$7.00</span>
+        </div>
+        <p class='item-info'>
+          <img src='../img/svg/info.svg' alt='info icon'>
+          <span class='body-caption'>The cost is not final. Download our mobile app to see the final price and place
+            your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</span>
+        </p>
+        <button class='item-close-btn' id='item-close-btn'>Close</button>
+      </div>
+    </div>
+  </article>
+
+  <script src='../script/consoleTask.js'></script>
+  <script src='./script.js'></script>
+  <script src="../script/headerScript.js"></script>
+</body>
+
+</html>
