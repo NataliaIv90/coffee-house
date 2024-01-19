@@ -1,5 +1,5 @@
 @import '../../style/normalize.css';
-@import '../styles/basic-style.css';
+@import '../../styles/basic-style.css';
 
 .modal-open {
   height: 100vh;

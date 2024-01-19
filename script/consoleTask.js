@@ -43,5 +43,3 @@ The Modal on the menu page: +20\n
 + In the Enjoy block of the home page, a video is played in the background instead of an image, without sound and control elements, and without the ability to interact with it: +4\n
 + After the video is finished, it automatically starts over: +4\n`);
 };
-
-consoleTask();

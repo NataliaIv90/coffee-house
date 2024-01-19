@@ -1,4 +1,4 @@
-@import '../../style/normalize.css';
+@import 'style.css';
 @import './basic-style.css';
 
 
@@ -163,11 +163,11 @@ section:not(:last-child) {
 }
 
 .slide-to-center-from-left {
-  animation: slideToCenterFromLeft 1s forwards;
+  animation: slideToCenterFromLeft 2s forwards;
 }
 
 .slide-to-left {
-  animation: slideToLeft 1s forwards;
+  animation: slideToLeft 2s forwards;
 }
 
 @keyframes slideToCenterFromRight {
@@ -203,11 +203,11 @@ section:not(:last-child) {
 }
 
 .slide-to-center-from-right {
-  animation: slideToCenterFromRight 1s forwards;
+  animation: slideToCenterFromRight 2s forwards;
 }
 
 .slide-to-right {
-  animation: slideToRight 1s forwards;
+  animation: slideToRight 2s forwards;
 }
 
 .visible {
